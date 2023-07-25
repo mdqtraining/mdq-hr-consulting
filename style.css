@@ -11,8 +11,9 @@
 
 .nav-top {
     background-color: #00308F;
+    font-size: 14px;
+    padding-top: 20px;
 }
-
 .top-num {
     color: white;
     text-decoration: none;
@@ -37,7 +38,6 @@
 
 .top-tex {
     color: white;
-    margin-right: 20px;
 }
 
 .social-icons {
@@ -58,7 +58,8 @@
 .nav-link {
     font-weight: 600;
     font-size: 14px;
-    margin-right: 25px;
+    margin-left: 25px;
+    margin-right: -20px !important;
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
@@ -228,7 +229,94 @@
 .svn-con-img{
     margin-top: 5%;
 }
+.eig-con {
+    background-color: var(--primary-color);
+    border-radius: 0px 200px 0px 0px;
+    padding-top: 20px;
+    padding-bottom: 70px;
+}
+.eig-con h2 {
+    font-weight: 600;
+    padding-top: 150px;
+    color: white;
+}
+
+.eig-con p {
+    color: white;
+    font-size: 15px;
+    line-height: 27px;
+}
+.eig-con-img{
+    margin-top: 5%;
+}
 .last{
     background-color: #001C4B;
+    color: white;
+    padding-top: 8%;
+    padding-bottom: 8%;
+}
+.last-first{
+    color: #C2D1E2;
+    font-size: 14px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom:50px;
+    background-color: #0D2955;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    line-height: 30px;
+    margin-top: 3%;
+
+}
+.last .first p{
+    padding-top: 20px;
+}
+.last-second{
+    list-style: none;
+    margin-top: 10%;
+}
+.last-second h4{
+    font-weight: 600;
+}
+.last-second ul{
+    list-style: none;
+    font-size: 14px;
+    line-height: 35px;
+}
+.last-second ul li a{
+    color: #C2D1E2;
+    text-decoration: none;
+}
+.last-second ul li a:hover{
+    color: white;
+}
+.last-third{
+    margin-top: 3%;
+}
+.lasthead{
+    font-weight: 600;
+}
+.lastpara{
+    color: #C2D1E2;
+}
+.last-third a{
+    color: #C2D1E2;
+    text-decoration: none;
+}
+.last-third a:hover{
+    color: white;
+}
+.copyrights{
+    background-color: #0F2A57;
+    color: #C2D1E2;
+    padding-top: 20px;
+}
+.lastline{
+    text-align: right;
+}
+.lastline a{
+    color: white;
+    text-decoration: none;
+}
+.lastline a:hover{
     color: white;
 }
