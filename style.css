@@ -137,7 +137,24 @@
     padding-top: 150px;
     padding-bottom: 150px;
 }
+.sec-mov-img{
+    padding-top: 1rem !important;
+    animation: moving_object 5s infinite linear;
+    width: 100%;
+}
+@keyframes moving_object{
+    0% {
+        transform: translateY(0);
+    }
 
+    50% {
+        transform: translateY(-35px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
 .second-page {
     background-color: var(--primary-color);
     margin-top: -8px;
