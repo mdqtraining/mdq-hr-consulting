@@ -142,7 +142,9 @@
     background-color: var(--primary-color);
     margin-top: -8px;
 }
-
+.second-page ul{
+    list-style: none;
+}
 .sec-con {
     background-color: #ECEEEF;
     border-radius: 0px 200px 0px 200px;
@@ -206,6 +208,10 @@
 .fifth-page {
     background-color: var(--secondary-color);
 }
+.fifth-page ul{
+    list-style: none;
+    color: white;
+}
 .fif-con {
     background-color: var(--primary-color);
     border-radius: 0px 200px 0px 200px;
@@ -229,6 +235,9 @@
 .sixth-page {
     background-color: var(--primary-color);
 }
+.sixth-page ul{
+    list-style: none;
+}
 .six-con {
     background-color: var(--secondary-color);
     border-radius: 0px 200px 0px 200px;
@@ -249,6 +258,11 @@
 }
 .seventh-page {
     background-color: var(--secondary-color);
+}
+.seventh-page ul{
+    list-style: none;
+    color: white;
+    /* margin-left: -20px; */
 }
 .svn-con {
     background-color: var(--primary-color);
